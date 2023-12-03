@@ -1,0 +1,13 @@
+Prodotto	Categoria	Sottocategoria	Ingredienti	Descrizione	Prezzo
+Margherita	La Pizzeria	Le Classiche	Salsa di pomodori San Marzano, mozzarella di bufala, basilico fresco, finitura con olio extravergine d'oliva.	Salsa di pomodori San Marzano, mozzarella di bufala, basilico fresco, finitura con olio extravergine d'oliva.	€ 5,50
+Quattro Formaggi	La Pizzeria	Le Classiche	Selezione di mozzarella, gorgonzola, pecorino romano e fontina, su salsa di pomodoro leggera.	Selezione di mozzarella, gorgonzola, pecorino romano e fontina, su salsa di pomodoro leggera.	€ 4,00
+Prosciutto e Funghi 	La Pizzeria	Le Classiche	Prosciutto cotto di alta qualità, funghi champignon, mozzarella, salsa di pomodoro, origano.	Prosciutto cotto di alta qualità, funghi champignon, mozzarella, salsa di pomodoro, origano.	€ 3,50
+Frutti di Mare e Zafferano	La Pizzeria	Le Gourmet		Base leggera con salsa di pomodoro, coperta di frutti di mare assortiti come gamberetti, cozze e calamari, condita con una crema allo zafferano e guarnita con prezzemolo fresco.	€ 6,50
+Fichi e Prosciutto Crudo	La Pizzeria	Le Gourmet		Una deliziosa combinazione di fichi freschi e prosciutto crudo su una base di mozzarella, con un tocco di miele per dolcificare e una spolverata di rosmarino fresco per un profumo aromatico.	€ 8,50
+Salumi e Antipasti	Le Specialità	I Taglieri		Una collezione squisita di salumi italiani di alta qualità, tra cui Prosciutto di Parma, Salame Felino, Mortadella con pistacchi, e Bresaola affumicata. Abbinato a olive marinate, peperoncini farciti, e carciofini sott'olio, questo tagliere è una celebrazione dei sapori intensi e autentici dell'Italia.	€ 18,00
+Mediterraneo Vegetariano	Le Specialità	I Taglieri		Un tagliere colorato e salutare, che offre un assortimento di verdure grigliate come zucchine, melanzane, peperoni rossi e asparagi. Accompagnato da hummus cremoso, tapenade di olive, e falafel croccanti, questo tagliere è impreziosito da focaccine all'olio d'oliva e grissini artigianali, perfetto per un'esperienza gastronomica leggera ma soddisfacente.	€ 21,00
+Quattro Formaggi con Miele di Tartufo	Le Specialità	I Pan Pizza		 Un'opzione per gli amanti dei formaggi, questa panpizza abbina mozzarella, gorgonzola, taleggio e fontina, creando un mix di sapori intensi e cremosi. La pizza è poi finita con un leggero filo di miele al tartufo, aggiungendo un tocco di dolcezza e aroma unico.	€ 12,50
+Acqua	Il Beverage	Le Bevande			€ 2,00
+Thè	Il Beverage	Le Bevande			€ 3,00
+Nastro Azzurro	Il Beverage	Le Birre			€ 3,50
+Negroni	I Cocktails	I Classici		30 ml di gin, 30 ml di vermouth rosso, 30 ml di Campari, una fetta d'arancia per guarnire	€ 5,00
