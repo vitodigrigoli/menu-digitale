@@ -20,7 +20,7 @@ body{background: url(./grain.png) var(--black); color: var(--color-2);}
 h1, h2, h3 {font-family: 'Love Light', cursive; text-align: center; font-weight: 400;}
 img{width: 100%; height: auto;}
 
-main{padding: 12vh 0 12vh}
+main{padding-bottom: 12vh}
 
 
 
