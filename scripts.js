@@ -1,6 +1,6 @@
 const url = './menu.tsv'
 const sectionID = ['pizzeria', 'specialita', 'beverage', 'cocktails']
-const sectionName = ['La Pizzeria', 'Le Specialità', 'Il Beverage', 'I Cocktails']
+const sectionName = ['La Pizzeria', 'Il Beverage', 'I Cocktails']
 
 	fetch(url)
 		.then(response => response.text())
