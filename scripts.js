@@ -1,6 +1,6 @@
 const url = './menu.tsv'
-const sectionID = ['pizzeria', 'specialita', 'beverage', 'cocktails']
-const sectionName = ['La Pizzeria', 'Il Beverage', 'I Cocktails']
+const sectionID = ['pizzeria', 'specialita','beverage', 'cocktails']
+const sectionName = ['La Pizzeria', 'Le Specialità','Il Beverage', 'I Cocktails']
 
 	fetch(url)
 		.then(response => response.text())
@@ -14,7 +14,7 @@ const sectionName = ['La Pizzeria', 'Il Beverage', 'I Cocktails']
 				category = groupedCategoria[sectionName[i]]
 				let groupedSottocategoria = groupBy(category, 'Sottocategoria');
 
-				html = `
+				html += `
 					<section class="category" id="${sectionID[i]}">
 
 					<div class="category__sticky watch">
@@ -60,16 +60,17 @@ const sectionName = ['La Pizzeria', 'Il Beverage', 'I Cocktails']
 					}
 
 					html += `
-					</div></section>
-					
-					`;
+					</div>`;
 					
 
 				}
 			
 			
-				document.querySelector('main').innerHTML += html;
+				html += `
+					</section>`;
 			}
+
+			document.querySelector('main').innerHTML += html;
 
 
 			setup_animation()

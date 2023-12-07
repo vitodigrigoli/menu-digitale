@@ -38,12 +38,16 @@ Zuccotta	La Pizzeria	Le Speciali	Crema di Zucca, Mozzarella, Salsiccia, Polvere 
 Mia	La Pizzeria	Le Speciali	Salsa di Datterino Giallo, Ciliegino di Mozzarella, Tonno, Granella di Pistacchio, Basilico.	€ 12,00
 Stracciata	La Pizzeria	Le Speciali	Salsa, Mozzarella, Bresaola, Ciliegino Giallo, Petali di Mandorla Tostata, Stracciatella di Bufala.	€ 12,00
 Sublime	La Pizzeria	Le Speciali	Mozzarella, Crema di Asparagi, Crema di Bufala allo Zafferano, Prosciutto Crudo, Pomodoro Secco.	€ 13,00
-Acqua Naturale	Il Beverage	Le Bevande	50cl - 100cl	€ 1,00 - € 2,00
-Acqua Frizzante	Il Beverage	Le Bevande	50cl - 100cl	€ 1,00 - € 2,00
-Coca Cola	Il Beverage	Le Bevande	Vetro 33cl - Bottiglia 1L	€ 2,50 - € 3,50
-Coca Cola Zero	Il Beverage	Le Bevande	Vetro 33cl	€ 2,50
-Sprite	Il Beverage	Le Bevande	Vetro 33cl	€ 2,50
-Fanta	Il Beverage	Le Bevande	Vetro 33cl	€ 2,50
+Li stiamo preparando...	Le Specialità	I Taglieri		
+Acqua Naturale	Il Beverage	Le Bevande	Bottiglia 0,5L	€ 1,00
+Acqua Naturale	Il Beverage	Le Bevande	Bottiglia 1L	€ 2,00
+Acqua Frizzante	Il Beverage	Le Bevande	Bottiglia 0,5L	€ 1,00
+Acqua Frizzante	Il Beverage	Le Bevande	Bottiglia 1L	€ 2,00
+Coca Cola	Il Beverage	Le Bevande	Vetro 0,33L	€ 2,50
+Coca Cola	Il Beverage	Le Bevande	Bottiglia 1L	€ 3,50
+Coca Cola Zero	Il Beverage	Le Bevande	Vetro 0,33L	€ 2,50
+Sprite	Il Beverage	Le Bevande	Vetro 0,33L	€ 2,50
+Fanta	Il Beverage	Le Bevande	Vetro 0,33L	€ 2,50
 The	Il Beverage	Le Bevande	Limone - Pesca	€ 2,50
 Chinò Sanpellegrino	Il Beverage	Le Bevande		€ 2,50
 Red Bull	Il Beverage	Le Bevande		€ 3,00
@@ -53,24 +57,32 @@ Campari Soda	Il Beverage	Le Bevande		€ 2,50
 Ginger Beer	Il Beverage	Le Bevande		€ 3,00
 Schweppes	Il Beverage	Le Bevande	Limone - Tonica	€ 2,50
 Spuma Gassosa	Il Beverage	Le Bevande		€ 1,50
-Beck's	Il Beverage	Le Birre	33cl	€ 2,50
-Heineken	Il Beverage	Le Birre	33cl	€ 2,50
-Nastro Azzurro	Il Beverage	Le Birre	33cl	€ 2,50
-Tennent's	Il Beverage	Le Birre	33cl	€ 4,00
-Ceres	Il Beverage	Le Birre	33cl	€ 4,00
-Paulaner	Il Beverage	Le Birre	50cl	€ 5,00
-Birra Messina Cristalli di Sali	Il Beverage	Le Birre	33cl	€ 3,50
-Birra della Stretto	Il Beverage	Le Birre	33cl	€ 2,50
-Leffe Rossa	Il Beverage	Le Birre	33cl	€ 4,50
-Firriato Charme Bianco Frizzante	Il Beverage	I Vini		€ 5,00 Cal. - € 20,00 Bott.
-Barone Montalto	Il Beverage	I Vini	Passivento Rosso	€ 5,00 Cal. - € 20,00 Bott.
-Barone Montalto	Il Beverage	I Vini	Syrah	€ 4,00 Cal. - € 18,00 Bott.
-Cristo di Campobello Rosso	Il Beverage	I Vini	Nero d'Avola - Merlot - Syrah	€ 4,00 Cal. - € 18,00 Bott.
-Cristo di Campobello Bianco	Il Beverage	I Vini	Grillo - Chardonnay - Insolia - Catarratto	€ 4,00 Cal. - € 18,00 Bott.
-Firriato Altavilla della Corte	Il Beverage	I Vini	Grillo	€ 4,00 Cal. - € 18,00 Bott.
-Fina Kikè	Il Beverage	I Vini	Traminer - Sauvignon Blanc	€ 4,00 Cal. - € 18,00 Bott.
-Mandrarossa Urra di Mare	Il Beverage	I Vini	Sauvignon Blanc	€ 4,00 Cal. - € 18,00 Bott.
-Old Fashioned	I Cocktails	I Classici	Whiskey, Angostura Bitters, Zucchero	€ 5,00
+Beck's	Il Beverage	Le Birre	0,33L	€ 2,50
+Heineken	Il Beverage	Le Birre	0,33L	€ 2,50
+Nastro Azzurro	Il Beverage	Le Birre	0,33L	€ 2,50
+Tennent's	Il Beverage	Le Birre	0,33L	€ 4,00
+Ceres	Il Beverage	Le Birre	0,33L	€ 4,00
+Paulaner	Il Beverage	Le Birre	0,50L	€ 5,00
+Birra Messina Cristalli di Sali	Il Beverage	Le Birre	0,33L	€ 3,50
+Birra della Stretto	Il Beverage	Le Birre	0,33L	€ 2,50
+Leffe Rossa	Il Beverage	Le Birre	0,33L	€ 4,50
+Firriato Charme Bianco Frizzante	Il Beverage	I Vini	Calice	€ 5,00
+Barone Montalto	Il Beverage	I Vini	Calice: Passivento Rosso	€ 5,00
+Barone Montalto	Il Beverage	I Vini	Calice: Syrah	€ 4,00
+Cristo di Campobello Rosso	Il Beverage	I Vini	Calice: Nero d'Avola - Merlot - Syrah	€ 4,00
+Cristo di Campobello Bianco	Il Beverage	I Vini	Calice: Grillo - Chardonnay - Insolia - Catarratto	€ 4,00
+Firriato Altavilla della Corte	Il Beverage	I Vini	Calice: Grillo	€ 4,00
+Fina Kikè	Il Beverage	I Vini	Calice: Traminer - Sauvignon Blanc	€ 4,00
+Mandrarossa Urra di Mare	Il Beverage	I Vini	Calice: Sauvignon Blanc	€ 4,00
+Firriato Charme Bianco Frizzante	Il Beverage	I Vini	Bottiglia	€ 20,00
+Barone Montalto	Il Beverage	I Vini	Bottiglia: Passivento Rosso	€ 20,00
+Barone Montalto	Il Beverage	I Vini	Bottiglia: Syrah	€ 18,00
+Cristo di Campobello Rosso	Il Beverage	I Vini	Bottiglia: Nero d'Avola - Merlot - Syrah	€ 18,00
+Cristo di Campobello Bianco	Il Beverage	I Vini	Bottiglia: Grillo - Chardonnay - Insolia - Catarratto	€ 18,00
+Firriato Altavilla della Corte	Il Beverage	I Vini	Bottiglia: Grillo	€ 18,00
+Fina Kikè	Il Beverage	I Vini	Bottiglia: Traminer - Sauvignon Blanc	€ 18,00
+Mandrarossa Urra di Mare	Il Beverage	I Vini	Bottiglia: Sauvignon Blanc	€ 18,00
+Old Fashioned	I Cocktails	I Classici	Whiskey, Angostura Bitters, Zucchero.	€ 5,00
 Mojito	I Cocktails	I Classici	Rum Bianco, Soda Water, Foglie di Menta, Sciroppo di Zucchero, Lime.	€ 5,00
 Daiquiri	I Cocktails	I Classici	Rum Bianco, Lime, Sciroppo di Zucchero, Cointreau.	€ 5,00
 Long Island Ice Tea	I Cocktails	I Classici	Vodka, Rum bianco, Gin, Cointreau, Tequila Bianca, Limone, Sciroppo di Zucchero, Top di Coca Cola.	€ 5,00
