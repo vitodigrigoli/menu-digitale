@@ -2,81 +2,89 @@ const url = './menu.tsv'
 const sectionID = ['pizzeria', 'specialita','beverage', 'cocktails']
 const sectionName = ['La Pizzeria', 'Le Specialità','Il Beverage', 'I Cocktails']
 
-	fetch(url)
-		.then(response => response.text())
-		.then(data => {
-			let csvData = tsvToObjects(data);
-			let groupedCategoria = groupBy(csvData, 'Categoria');
-			let html = '';
+window.addEventListener('load', function() {
+    // Seleziona l'elemento a cui vuoi aggiungere la classe
+    const preloader = document.querySelector('.preloader');
 
-			for( let i = 0; i < sectionName.length; i++){
+    // Aggiungi la classe all'elemento
+    preloader.classList.add('preloader--hidden');
+});
 
-				category = groupedCategoria[sectionName[i]]
-				let groupedSottocategoria = groupBy(category, 'Sottocategoria');
+fetch(url)
+.then(response => response.text())
+.then(data => {
+	let csvData = tsvToObjects(data);
+	let groupedCategoria = groupBy(csvData, 'Categoria');
+	let html = '';
+
+	for( let i = 0; i < sectionName.length; i++){
+
+		category = groupedCategoria[sectionName[i]]
+		let groupedSottocategoria = groupBy(category, 'Sottocategoria');
+
+		html += `
+			<section class="category" id="${sectionID[i]}">
+
+			<div class="category__sticky watch">
+				<div class="container">
+					<h2>${sectionName[i]}</h2>
+				</div>
+				
+			</div>
+		`
+
+		for( let sottocategoria in groupedSottocategoria ){
+
+			sottoprodotti = groupedSottocategoria[sottocategoria]
+
+			html += `
+			<div class="category__food container">
+				<h3 class="category__food__title watch">${sottocategoria}</h3>
+			
+			`;
+
+			for( let product in sottoprodotti ){
 
 				html += `
-					<section class="category" id="${sectionID[i]}">
+				<div class="food watch">
 
-					<div class="category__sticky watch">
-						<div class="container">
-							<h2>${sectionName[i]}</h2>
+					<div class="food__header">
+
+						<div class="food__header__title">
+							<h4>${sottoprodotti[product].Prodotto}</h4>
 						</div>
-						
+
+						<div class="food__header__price">
+							<span>${sottoprodotti[product].Prezzo}</span>	
+						</div>
+
 					</div>
-				`
 
-				for( let sottocategoria in groupedSottocategoria ){
-
-					sottoprodotti = groupedSottocategoria[sottocategoria]
-
-					html += `
-					<div class="category__food container">
-						<h3 class="category__food__title watch">${sottocategoria}</h3>
-					
-					`;
-
-					for( let product in sottoprodotti ){
-
-						html += `
-						<div class="food watch">
-
-							<div class="food__header">
-
-								<div class="food__header__title">
-									<h4>${sottoprodotti[product].Prodotto}</h4>
-								</div>
-
-								<div class="food__header__price">
-									<span>${sottoprodotti[product].Prezzo}</span>	
-								</div>
-
-							</div>
-
-							<div class="food__description">
-								<p>${sottoprodotti[product].Descrizione}</p>
-							</div>
-						</div>
-						`;
-					}
-
-					html += `
-					</div>`;
-					
-
-				}
-			
-			
-				html += `
-					</section>`;
+					<div class="food__description">
+						<p>${sottoprodotti[product].Descrizione}</p>
+					</div>
+				</div>
+				`;
 			}
 
-			document.querySelector('main').innerHTML += html;
+			html += `
+			</div>`;
+			
+
+		}
+	
+	
+		html += `
+			</section>`;
+	}
+
+	document.querySelector('main').innerHTML += html;
 
 
-			setup_animation()
-		})
+	setup_animation()
+})
 
-		.catch(console.error);
+.catch(console.error);
 
 
 
