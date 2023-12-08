@@ -166,3 +166,7 @@ main{padding-bottom: 12vh}
 	  transform: rotate(360deg);
 	}
   } 
+
+/* Iubenda
+------------------------------------------------------------------------- */
+#iubenda-iframe #iubFooterBtnContainer button {background-color: var(--color-1) !important}
