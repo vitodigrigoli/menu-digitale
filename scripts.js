@@ -80,6 +80,12 @@ fetch(url)
 
 	document.querySelector('main').innerHTML += html;
 
+	const pizzeria_text = document.createElement('p')
+
+	pizzeria_text.id = "pizzeria__adds"
+	pizzeria_text.className = "container"
+	pizzeria_text.textContent = "* Prodotti Surgelati - Coperto € 2,00 - Aggiunte: Patatine, Verdure € 0,50 | Salumi € 1,00 | Doppia Mozzarella € 1,50 | Bresaola € 2,50 | Burrata, Bufala, Stracciatella, Mozzarella senza Lattosio € 3,00."
+	document.querySelector('#pizzeria').appendChild(pizzeria_text)
 
 	setup_animation()
 })

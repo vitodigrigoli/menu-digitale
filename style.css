@@ -65,13 +65,15 @@ main{padding-bottom: 12vh}
 
 .food__header{display: flex; justify-content: space-between; margin-bottom: 0.5rem; }
 .food__header__title h4 {font-size: clamp(1.5rem, calc(1.5rem + 1vw), 3rem); font-weight: 400; color: var(--color-1);}
-.food__header__title{  width: 65%;}
+.food__header__title{  width: 63%;}
 
 
 .food__header__price{display: flex; align-items: center; }
 .food__header__price span{display: block; font-size: clamp(1rem, calc(1rem + 1vw), 1.8rem);}
 
 .food__description p{text-align: justify; font-size: clamp(1rem, calc(1rem + 1vw), 1.8rem); line-height: 1.5;}
+
+#pizzeria__adds{line-height: 1.5; padding-bottom: 1rem; font-family:  'Montserrat', sans-serif;  font-size: clamp(0.7rem, calc(0.7rem + 0.5vw), 2rem); font-weight: 400; text-align: justify;}
 
 
 
@@ -126,7 +128,7 @@ main{padding-bottom: 12vh}
 
 /* Preloader
 ------------------------------------------------------------------------- */
-.preloader{width: 100%; height: 100vh; position: fixed; top: 0; left: 0; background: url(./grain.png) var(--black);  z-index: 110; font-family: 'Montserrat', sans-serif; display: flex; align-items: center; justify-content: center; font-size: clamp(0.7rem, calc(0.7rem + 0.5vw), 2rem); letter-spacing: 1px; visibility: visible; opacity: 1; transition: 0.4s;;}
+.preloader{width: 100%; height: 100svh; height: 100vh; position: fixed; top: 0; left: 0; background: url(./grain.png) var(--black);  z-index: 110; font-family: 'Montserrat', sans-serif; display: flex; align-items: center; justify-content: center; font-size: clamp(0.7rem, calc(0.7rem + 0.5vw), 2rem); letter-spacing: 1px; visibility: visible; opacity: 1; transition: 0.4s;;}
 .preloader--hidden{visibility: hidden; opacity: 0;;}
 
 .preloader__body__icon{text-align: center; display: flex; flex-direction: column;  align-items: center; margin-top: 4vh;  row-gap: 4vh;}
