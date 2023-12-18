@@ -1,4 +1,8 @@
 Prodotto	Categoria	Sottocategoria	Descrizione	Prezzo
+Il Tagliere	Le Selezioni	I Più Richiesti	Antipasti Rustici Misti.	€ 10,00 pp.
+AperiPizza	Le Selezioni	I Più Richiesti	Il Tagliere con Antipasti Rustici accompagnato da un cocktail base.	€ 15,00 pp.
+AperiPizza Premium	Le Selezioni	I Più Richiesti	Il Tagliere con Antipasti Rustici accompagnato da un cocktail premium.	€ 17,00 pp.
+Antipasti & Giro Pizza	Le Selezioni	I Più Richiesti	Il Tagliere con Antipasti Rustici, Fritto Misto Big*, Pizze, Acqua, Caffè & Digestivo (bevande escluse).	€ 18,00 pp.
 Margherita	La Pizzeria	Le Classiche	Salsa, Mozzarella, Olio, Origano.	€ 5,00
 Romana	La Pizzeria	Le Classiche	Salsa, Mozzarella, Prosciutto Cotto.	€ 6,00
 Patatosa	La Pizzeria	Le Classiche	Salsa, Mozzarella, Patatine*.	€ 6,00
@@ -30,7 +34,7 @@ Spada & Menta	La Pizzeria	Le Marinare	Salsa, Mozzarella, Pesce Spada*, Melanzane
 Bomba	La Pizzeria	Le Speciali	Un'esplosione di sapori per palati audaci. La mozzarella filante incontra il pizzico ardente del salame piccante, abbinato a funghi saporiti e peperoni croccanti. Il tocco finale? Un filo di Tabasco per un'esperienza gustativa che risveglia i sensi.	€ 7,50
 Rustica	La Pizzeria	Le Speciali	Un omaggio ai sapori della campagna. Salsa di pomodoro e mozzarella si uniscono al salame piccante e alla salsiccia rustica. La dolcezza della cipolla e il croccante del pangrattato completano questa delizia rurale.	€ 7,50
 Kebab	La Pizzeria	Le Speciali	Un'avventura culinaria esotica. Salsa di pomodoro e kebab speziato incontrano l'aroma fresco della cipolla e la croccantezza della lattuga. Pomodori ciliegino freschi e un duplice tocco di salsa yogurt e salsa piccante per un finale indimenticabile.	€ 8,00
-AperiPizza	La Pizzeria	Le Speciali	 Un'opera d'arte culinaria. Salsa tradizionale e mozzarella si fondono con salame piccante e salsiccia, arricchite da funghi tartufati. Coronata da patatine croccanti, questa pizza è un trionfo di sapori.	€ 9,00
+AperiPizza	La Pizzeria	Le Speciali	Un'opera d'arte culinaria. Salsa tradizionale e mozzarella si fondono con salame piccante e salsiccia, arricchite da funghi tartufati. Coronata da patatine croccanti, questa pizza è un trionfo di sapori.	€ 9,00
 Bacon Chips	La Pizzeria	Le Speciali	Un capolavoro di gusti. Questa pizza combina salsa e mozzarella con patate lesse cremose, bacon sfizioso e cipolla dolce, completata da scaglie che esaltano ogni morso.	€ 8,00
 Trentina	La Pizzeria	Le Speciali	Un viaggio nei sapori del Nord Italia. Una base innovativa di salsa alle noci si sposa con la mozzarella filante, lo speck affumicato e il radicchio croccante, creando un'esperienza gustativa unica e indimenticabile.	€ 9,00
 Carciofotta	La Pizzeria	Le Speciali	Un capolavoro di sapori e texture. Una base di salsa e mozzarella si fonde con una vellutata crema di carciofi, mentre il salame piccante e i funghi porcini aggiungono profondità. Il tocco finale di gorgonzola arricchisce ogni boccone con un sapore unico.	€ 9,00
@@ -38,11 +42,9 @@ Zuccotta	La Pizzeria	Le Speciali	Un'esplosione autunnale di sapori. La base con 
 Mia	La Pizzeria	Le Speciali	Una sinfonia di sapori delicati. La dolcezza della salsa di datterino giallo e la freschezza dei ciliegini di mozzarella si fondono con il tonno di qualità. Granella di pistacchio e basilico arricchiscono questa creazione con note croccanti e aromatiche.	€ 12,00
 Stracciata	La Pizzeria	Le Speciali	Eleganza e gusto si fondono. Salsa e mozzarella accolgono la bresaola delicata e i ciliegini gialli succosi. Petali di mandorla tostata e stracciatella di bufala aggiungono una texture divina e un gusto incomparabile.	€ 12,00
 Sublime	La Pizzeria	Le Speciali	Un'esperienza culinaria che incanta. Mozzarella filante, crema di asparagi e crema di bufala allo zafferano creano una base ineguagliabile, esaltata dal prosciutto crudo e dai pomodori secchi per un gusto pieno e avvolgente.	€ 13,00
-Il Tagliere	Le Specialità	I Taglieri	Fritto Misto, Rosticceria Mignon, Salumi & Formaggi, Olive, Carciofi Grigliati, Funghi Grigliati, Pomodoro Secco.	€ 10,00 pp.
-Tagliere Giropizza	Le Specialità	I Taglieri	Il Tagliere con incluso il Giro Pizza (escluso bevande).	€ 18,00 pp.
-Fritto Misto Piccolo	Le Specialità	Fritture	Patatine*, Mozzarelline*, Olive all'Ascolana*, Panelle*, Crocchette*.	€ 2,50
-Fritto Misto Medio	Le Specialità	Fritture	Patatine*, Mozzarelline*, Olive all'Ascolana*, Panelle*, Crocchette*.	€ 7,50
-Fritto Misto Grande	Le Specialità	Fritture	Patatine*, Mozzarelline*, Olive all'Ascolana*, Panelle*, Crocchette*.	€ 12,50
+Fritto Misto Piccolo	Le Specialità	Le Fritture	Patatine*, Mozzarelline*, Olive all'Ascolana*, Panelle*, Crocchette*.	€ 2,50
+Fritto Misto Medio	Le Specialità	Le Fritture	Patatine*, Mozzarelline*, Olive all'Ascolana*, Panelle*, Crocchette*.	€ 7,50
+Fritto Misto Grande	Le Specialità	Le Fritture	Patatine*, Mozzarelline*, Olive all'Ascolana*, Panelle*, Crocchette*.	€ 12,50
 Kebab	Le Specialità	I Pan Pizza	Kebab*, Cipolla, Lattuga, Ciliegino, Salsa Yogurt, Salsa Piccante.	€ 5,00
 Al Crudo	Le Specialità	I Pan Pizza	Rucola, Prosciutto Crudo, Ciliegino, Scaglie.	€ 4,00
 Al Tonno	Le Specialità	I Pan Pizza	Mozzarella, Tonno, Ciliegino, Scaglie.	€ 4,50
@@ -71,25 +73,27 @@ Nastro Azzurro	Il Beverage	Le Birre	0,33L	€ 2,50
 Tennent's	Il Beverage	Le Birre	0,33L	€ 4,00
 Ceres	Il Beverage	Le Birre	0,33L	€ 4,00
 Paulaner	Il Beverage	Le Birre	0,50L	€ 5,00
-Birra Messina Cristalli di Sali	Il Beverage	Le Birre	0,33L	€ 3,50
-Birra della Stretto	Il Beverage	Le Birre	0,33L	€ 3,00
+Birra Messina Cristalli di Sale	Il Beverage	Le Birre	0,33L	€ 3,50
+Birra dello Stretto	Il Beverage	Le Birre	0,33L	€ 3,00
 Leffe Rossa	Il Beverage	Le Birre	0,33L	€ 4,50
 Firriato Charme Bianco Frizzante	Il Beverage	I Vini	Calice	€ 5,00
 Barone Montalto	Il Beverage	I Vini	Calice: Passivento Rosso	€ 5,00
 Barone Montalto	Il Beverage	I Vini	Calice: Syrah	€ 4,00
-Cristo di Campobello Rosso	Il Beverage	I Vini	Calice: Nero d'Avola	€ 4,00
-Cristo di Campobello Bianco	Il Beverage	I Vini	Calice: Grillo	€ 4,00
+Cristo di Campobello	Il Beverage	I Vini	Calice: Nero d'Avola, Grillo	€ 4,00
 Firriato Altavilla della Corte	Il Beverage	I Vini	Calice: Grillo	€ 4,00
 Fina Kikè	Il Beverage	I Vini	Calice: Sauvignon Blanc	€ 4,00
 Mandrarossa Urra di Mare	Il Beverage	I Vini	Calice: Sauvignon Blanc	€ 4,00
+Abbazia St. Anastasia DOC Sicilia BIO	Il Beverage	I Vini	Calice: Syrah, Zibibbo	€ 5,00
+Abbazia St. Anastasia DOC Sicilia BIO	Il Beverage	I Vini	Calice: Nero d'Avola, Grillo	€ 4,00
 Firriato Charme Bianco Frizzante	Il Beverage	I Vini	Bottiglia	€ 20,00
 Barone Montalto	Il Beverage	I Vini	Bottiglia: Passivento Rosso	€ 20,00
 Barone Montalto	Il Beverage	I Vini	Bottiglia: Syrah	€ 18,00
-Cristo di Campobello Rosso	Il Beverage	I Vini	Bottiglia: Nero d'Avola	€ 18,00
-Cristo di Campobello Bianco	Il Beverage	I Vini	Bottiglia: Grillo	€ 18,00
+Cristo di Campobello	Il Beverage	I Vini	Bottiglia: Nero d'Avola, Grillo	€ 18,00
 Firriato Altavilla della Corte	Il Beverage	I Vini	Bottiglia: Grillo	€ 18,00
 Fina Kikè	Il Beverage	I Vini	Bottiglia: Sauvignon Blanc	€ 18,00
 Mandrarossa Urra di Mare	Il Beverage	I Vini	Bottiglia: Sauvignon Blanc	€ 18,00
+Abbazia St. Anastasia DOC Sicilia BIO	Il Beverage	I Vini	Bottiglia: Syrah, Zibibbo	€ 20,00
+Abbazia St. Anastasia DOC Sicilia BIO	Il Beverage	I Vini	Bottiglia: Nero d'Avola, Grillo	€ 18,00
 Jägermeister	Il Beverage	Gli Amari		€ 4,00
 Amaro del Capo	Il Beverage	Gli Amari		€ 4,00
 Amaro Averna	Il Beverage	Gli Amari		€ 4,00
@@ -100,23 +104,23 @@ Mojito	I Cocktails	I Classici	Rum Bianco, Soda Water, Foglie di Menta, Sciroppo 
 Daiquiri	I Cocktails	I Classici	Rum Bianco, Lime, Sciroppo di Zucchero, Cointreau.	€ 5,00
 Long Island Ice Tea	I Cocktails	I Classici	Vodka, Rum bianco, Gin, Cointreau, Tequila Bianca, Limone, Sciroppo di Zucchero, Top di Coca Cola.	€ 5,00
 Japanase Ice Tea	I Cocktails	I Classici	Vodka, Rum bianco, Gin, Tequila Bianca, Midori, Limone, Sciroppo di Zucchero, Top di Limonata.	€ 5,00
-Negroni	I Cocktails	I Classici	Gin, Campari bitter, Vermouth Rosso.	€ 5,00
-Americano	I Cocktails	I Classici	Soda Water, Campari Bitter, Vermouth Rosso.	€ 5,00
+Negroni	I Cocktails	I Classici	Gin, Campari bitter, Vermouth Rosso.	€ 5,00
+Americano	I Cocktails	I Classici	Soda Water, Campari Bitter, Vermouth Rosso.	€ 5,00
 Margarita	I Cocktails	I Classici	Tequila Bianca, Cointreau, Lime, Crustas di Sale.	€ 5,00
-Moscow Mule	I Cocktails	I Classici	Vodka, Lime, Ginger Beer.	€ 5,00
-Sex on the Beach	I Cocktails	I Classici	Vodka, Liquore alla Pesca, Succo d'Arancia, Succo Cranberry.	€ 5,00
-Whiskey Sour	I Cocktails	I Classici	Bourbon Whiskey, Succo di Limone, Sciroppo di Zucchero, Albume d’Uovo.	€ 5,00
+Moscow Mule	I Cocktails	I Classici	Vodka, Lime, Ginger Beer.	€ 5,00
+Sex on the Beach	I Cocktails	I Classici	Vodka, Liquore alla Pesca, Succo d'Arancia, Succo Cranberry.	€ 5,00
+Whiskey Sour	I Cocktails	I Classici	Bourbon Whiskey, Succo di Limone, Sciroppo di Zucchero, Albume d’Uovo.	€ 5,00
 Aperol Spritz	I Cocktails	Gli Spritz	Aperol, Prosecco, Soda Water.	€ 5,00
 Campari Spritz	I Cocktails	Gli Spritz	Campari Bitter, Prosecco, Soda Water.	€ 5,00
 Melon Spritz	I Cocktails	Gli Spritz	Midori, Prosecco, Soda Water.	€ 5,00
-Hugo Spritz	I Cocktails	Gli Spritz	St-Germain, Prosecco, Soda Water, Foglie di Menta, Spicchi di Lime.	€ 6,00
+Hugo Spritz	I Cocktails	Gli Spritz	St-Germain, Prosecco, Soda Water, Foglie di Menta, Spicchi di Lime.	€ 6,00
 Mandarin Spritz	I Cocktails	Gli Spritz	Mandarin, Prosecco, Soda Water.	€ 5,00
 Aperi-Spritz	I Cocktails	Gli Spritz	Liquore al Fico, Succo di Mela, Prosecco, Soda Water.	€ 6,00
-Giulia's Heart	I Cocktails	I Signature	Tequila Bianca, Pestato di Lamponi, Succo d’Ananas, Succo di Limone, Acqua di Rose.	€ 10,00
+Giulia's Heart	I Cocktails	I Signature	Tequila Bianca, Pestato di Lamponi, Succo d’Ananas, Succo di Limone, Acqua di Rose.	€ 10,00
 Purple Rain	I Cocktails	I Signature	Iovem, Passoa, Sciroppo ai Fiori di Sambuco, Succo di Limone, Top di Tonica.	€ 10,00
 Autumn in San Giovanni	I Cocktails	I Signature	Rum Bianco, Mandarinetto, Sciroppo al Mandarino Home Made, Succo di Limone, Albume d’Uovo, Bitter all’Arancia.	€ 10,00
 Fico Sto Mai Tai	I Cocktails	I Signature	Rum Bianco, Rum Scuro, Liquore al Fico, Orzata, Succo di Lime.	€ 9,00
-Virgin Mojito	I Cocktails	Gli Alchol Free	Soda Water, Foglie di Menta, Sciroppo di Zucchero, Lime.	€ 3,50
+Virgin Mojito	I Cocktails	Gli Alchol Free	Soda Water, Foglie di Menta, Sciroppo di Zucchero, Lime.	€ 3,50
 Virgin Colada	I Cocktails	Gli Alchol Free	Succo d'Ananas, Latte di Cocco.	€ 3,50
-Sunset on Monte Cammarata	I Cocktails	Gli Alchol Free	Succo d’Arancia, Succo d’Ananas, Succo di Limone, Succo di Mela, Granatina.	€ 3,50
+Sunset on Monte Cammarata	I Cocktails	Gli Alchol Free	Succo d’Arancia, Succo d’Ananas, Succo di Limone, Succo di Mela, Granatina.	€ 3,50
 Spicy Freshness	I Cocktails	Gli Alchol Free	Ginger Beer, Lime, Sciroppo di Zucchero, Zenzero.	€ 3,50

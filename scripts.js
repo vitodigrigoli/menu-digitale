@@ -1,6 +1,6 @@
 const url = './menu.tsv'
-const sectionID = ['pizzeria', 'specialita','beverage', 'cocktails']
-const sectionName = ['La Pizzeria', 'Le Specialità','Il Beverage', 'I Cocktails']
+const sectionID = ['selezioni', 'pizzeria', 'specialita','beverage', 'cocktails']
+const sectionName = ['Le Selezioni', 'La Pizzeria', 'Le Specialità','Il Beverage', 'I Cocktails']
 
 window.addEventListener('load', function() {
     // Seleziona l'elemento a cui vuoi aggiungere la classe
@@ -36,6 +36,9 @@ fetch(url)
 		for( let sottocategoria in groupedSottocategoria ){
 
 			sottoprodotti = groupedSottocategoria[sottocategoria]
+
+			if (sottocategoria != '')
+				console.log(sottocategoria)
 
 			html += `
 			<div class="category__food container">
@@ -84,7 +87,7 @@ fetch(url)
 
 	pizzeria_text.id = "pizzeria__adds"
 	pizzeria_text.className = "container"
-	pizzeria_text.textContent = "* Prodotti Surgelati - Coperto € 2,00 - Aggiunte: Patatine, Verdure € 0,50 | Salumi € 1,00 | Doppia Mozzarella € 1,50 | Bresaola € 2,50 | Burrata, Bufala, Stracciatella, Mozzarella senza Lattosio € 3,00."
+	pizzeria_text.textContent = "* Prodotti Surgelati - Coperto € 2,00 - Aggiunte: Patatine, Verdure € 1,00 | Salumi & Formaggi € 1,50 | Doppia Mozzarella € 2,00 | Bresaola € 2,50 | Burrata, Bufala, Stracciatella, Mozzarella senza Lattosio € 3,00 - Pizza formato Famiglia: 2x prezzo Normale."
 	document.querySelector('#pizzeria').appendChild(pizzeria_text)
 
 	setup_animation()
@@ -153,12 +156,16 @@ const setup_animation = () => {
 
 			if( item.isIntersecting){
 				item.target.classList.add('in-view')
-				icon_menu.classList.add('menu__item--active')
+
+				if(icon_menu)
+					icon_menu.classList.add('menu__item--active')
 
 			}
 			else{
 				item.target.classList.remove('in-view')
-				icon_menu.classList.remove('menu__item--active')
+				
+				if(icon_menu)
+					icon_menu.classList.remove('menu__item--active')
 			}
 		})
 	}, { threshold: 0.05} )
