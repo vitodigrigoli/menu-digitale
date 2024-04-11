@@ -1,8 +1,8 @@
 Prodotto	Categoria	Sottocategoria	Descrizione	Prezzo
-Il Tagliere	Le Selezioni	I Più Richiesti	Antipasti Rustici Misti.	€ 10,00 pp.
-AperiPizza	Le Selezioni	I Più Richiesti	Il Tagliere con Antipasti Rustici accompagnato da un cocktail base.	€ 15,00 pp.
-AperiPizza Premium	Le Selezioni	I Più Richiesti	Il Tagliere con Antipasti Rustici accompagnato da un cocktail premium.	€ 17,00 pp.
-Antipasti & Giro Pizza	Le Selezioni	I Più Richiesti	Il Tagliere con Antipasti Rustici, Fritto Misto Big*, Pizze, Acqua, Caffè & Digestivo (bevande escluse).	€ 18,00 pp.
+Il Tagliere	Le Selezioni	I Più Richiesti	Antipasti Rustici Misti.	€ 10,00 a pers.
+AperiPizza	Le Selezioni	I Più Richiesti	Il Tagliere con Antipasti Rustici accompagnato da un cocktail base.	€ 15,00 a pers.
+AperiPizza Premium	Le Selezioni	I Più Richiesti	Il Tagliere con Antipasti Rustici accompagnato da un cocktail premium.	€ 17,00 a pers.
+Antipasti & Giro Pizza	Le Selezioni	I Più Richiesti	Il Tagliere con Antipasti Rustici, Fritto Misto Big*, Pizze, Acqua, Caffè & Digestivo (bevande escluse).	€ 18,00 a pers.
 Margherita	La Pizzeria	Le Classiche	Salsa, Mozzarella, Olio, Origano.	€ 5,00
 Romana	La Pizzeria	Le Classiche	Salsa, Mozzarella, Prosciutto Cotto.	€ 6,00
 Patatosa	La Pizzeria	Le Classiche	Salsa, Mozzarella, Patatine*.	€ 6,00
@@ -42,9 +42,11 @@ Zuccotta	La Pizzeria	Le Speciali	Un'esplosione autunnale di sapori. La base con 
 Mia	La Pizzeria	Le Speciali	Una sinfonia di sapori delicati. La dolcezza della salsa di datterino giallo e la freschezza dei ciliegini di mozzarella si fondono con il tonno di qualità. Granella di pistacchio e basilico arricchiscono questa creazione con note croccanti e aromatiche.	€ 12,00
 Stracciata	La Pizzeria	Le Speciali	Eleganza e gusto si fondono. Salsa e mozzarella accolgono la bresaola delicata e i ciliegini gialli succosi. Petali di mandorla tostata e stracciatella di bufala aggiungono una texture divina e un gusto incomparabile.	€ 12,00
 Sublime	La Pizzeria	Le Speciali	Un'esperienza culinaria che incanta. Mozzarella filante, crema di asparagi e crema di bufala allo zafferano creano una base ineguagliabile, esaltata dal prosciutto crudo e dai pomodori secchi per un gusto pieno e avvolgente.	€ 13,00
-Fritto Misto Piccolo	Le Specialità	Le Fritture	Patatine*, Mozzarelline*, Olive all'Ascolana*, Panelle*, Crocchette*.	€ 2,50
-Fritto Misto Medio	Le Specialità	Le Fritture	Patatine*, Mozzarelline*, Olive all'Ascolana*, Panelle*, Crocchette*.	€ 7,50
-Fritto Misto Grande	Le Specialità	Le Fritture	Patatine*, Mozzarelline*, Olive all'Ascolana*, Panelle*, Crocchette*.	€ 12,50
+Vaschetta Piccola Patatine	Le Specialità	Le Fritture		€ 1,50
+Vaschetta Media Patatine	Le Specialità	Le Fritture		€ 2,50
+Vaschetta Intermedia Patatine	Le Specialità	Le Fritture		€ 3,50
+Vaschetta Grande Patatine	Le Specialità	Le Fritture		€ 5,00
+Fritto Misto	Le Specialità	Le Fritture	Patatine*, Mozzarelline*, Olive all'Ascolana*, Panelle*, Crocchette*.	€ 2,50 a pers.
 Kebab	Le Specialità	I Pan Pizza	Kebab*, Cipolla, Lattuga, Ciliegino, Salsa Yogurt, Salsa Piccante.	€ 5,00
 Al Crudo	Le Specialità	I Pan Pizza	Rucola, Prosciutto Crudo, Ciliegino, Scaglie.	€ 4,00
 Al Tonno	Le Specialità	I Pan Pizza	Mozzarella, Tonno, Ciliegino, Scaglie.	€ 4,50
@@ -68,6 +70,7 @@ Ginger Beer	Il Beverage	Le Bevande		€ 3,00
 Schweppes	Il Beverage	Le Bevande	Limone - Tonica	€ 2,50
 Spuma Gassosa	Il Beverage	Le Bevande		€ 1,50
 Beck's	Il Beverage	Le Birre	0,33L	€ 2,50
+Beck's Grande	Il Beverage	Le Birre	0,66L	€ 4,00
 Heineken	Il Beverage	Le Birre	0,33L	€ 2,50
 Nastro Azzurro	Il Beverage	Le Birre	0,33L	€ 2,50
 Tennent's	Il Beverage	Le Birre	0,33L	€ 4,00
@@ -99,6 +102,34 @@ Amaro del Capo	Il Beverage	Gli Amari		€ 4,00
 Amaro Averna	Il Beverage	Gli Amari		€ 4,00
 Disaronno	Il Beverage	Gli Amari		€ 4,00
 Vecchia Romagna	Il Beverage	Gli Amari		€ 4,00
+Bombay	Il Beverage	I Gin		€ 4,50
+Tanqueray	Il Beverage	I Gin		€ 4,50
+Gin Mare	Il Beverage	I Gin		€ 8,00
+Bull Dog	Il Beverage	I Gin		€ 7,00
+Hendrick's	Il Beverage	I Gin		€ 8,00
+Keglevich	Il Beverage	Le Vodka		€ 4,00
+Belvedere	Il Beverage	Le Vodka		€ 8,00
+Skyy	Il Beverage	Le Vodka		€ 4,00
+Bacardi Bianco	Il Beverage	I Rum		€ 5,00
+Pampero Especial	Il Beverage	I Rum		€ 4,00
+Malibu	Il Beverage	I Rum		€ 5,00
+Johnnie Walker Red Label	Il Beverage	I Whisky		€ 4,50
+Johnnie Walker Black Label	Il Beverage	I Whisky		€ 6,00
+Four Roses Bournbon	Il Beverage	I Whisky		€ 4,00
+Jack Daniel's	Il Beverage	I Whisky		€ 4,50
+Ballantine's	Il Beverage	I Whisky		€ 4,00
+Glen Grant	Il Beverage	I Whisky		€ 4,00
+J&B	Il Beverage	I Whisky		€ 4,00
+Diciotto Lune	Il Beverage	Le Grappe		€ 6,00
+903	Il Beverage	Le Grappe		€ 4,50
+Kahlua	Il Beverage	I Liquori		€ 4,50
+Cointreau	Il Beverage	I Liquori		€ 6,00
+Sambuca	Il Beverage	I Liquori		€ 4,50
+Bailey's	Il Beverage	I Liquori		€ 4,50
+Aperol	Il Beverage	Gli Aperitivi		€ 4,50
+Campari	Il Beverage	Gli Aperitivi		€ 4,50
+Martini Bianco	Il Beverage	Gli Aperitivi		€ 4,50
+Martini Rosso	Il Beverage	Gli Aperitivi		€ 4,50
 Old Fashioned	I Cocktails	I Classici	Whiskey, Angostura Bitters, Zucchero.	€ 5,00
 Mojito	I Cocktails	I Classici	Rum Bianco, Soda Water, Foglie di Menta, Sciroppo di Zucchero, Lime.	€ 5,00
 Daiquiri	I Cocktails	I Classici	Rum Bianco, Lime, Sciroppo di Zucchero, Cointreau.	€ 5,00

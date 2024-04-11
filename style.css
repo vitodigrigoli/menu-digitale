@@ -15,7 +15,7 @@
 *::before,
 *::after{ margin: 0; padding: 0; box-sizing: border-box;}
 
-html{font-family: 'Beau Rivage', cursive;}
+html{font-family:  'Montserrat', sans-serif; }
 body{background: url(./grain.png) var(--black); color: var(--white);}
 h1, h2, h3 {font-family: 'Love Light', cursive; text-align: center; font-weight: 400;}
 img{width: 100%; height: auto;}
@@ -64,14 +64,14 @@ main{padding-bottom: 12vh}
 .food.in-view{opacity: 1; visibility: visible; transform: translateY(0);}
 
 .food__header{display: flex; justify-content: space-between; margin-bottom: 0.5rem; }
-.food__header__title h4 {font-size: clamp(1.5rem, calc(1.5rem + 1vw), 3rem); font-weight: 400; color: var(--color-1);}
+.food__header__title h4 {font-size: clamp(1.3rem, calc(1.3rem + 1vw), 3rem); font-weight: 600; color: var(--color-1); text-transform: uppercase; font;}
 .food__header__title{  width: 63%;}
 
 
 .food__header__price{display: flex; align-items: center; }
-.food__header__price span{display: block; font-size: clamp(1rem, calc(1rem + 1vw), 1.8rem);}
+.food__header__price span{display: block; font-size: clamp(0.8rem, calc(0.8rem + 1vw), 1.8rem);}
 
-.food__description p{text-align: justify; font-size: clamp(1rem, calc(1rem + 1vw), 1.8rem); line-height: 1.5;}
+.food__description p{text-align: justify; font-size: clamp(0.85rem, calc(0.85rem + 1vw), 1.8rem); line-height: 1.5;}
 
 #pizzeria__adds{line-height: 1.5; padding-bottom: 1rem; font-family:  'Montserrat', sans-serif;  font-size: clamp(0.7rem, calc(0.7rem + 0.5vw), 2rem); font-weight: 400; text-align: justify;}
 

@@ -87,7 +87,7 @@ fetch(url)
 
 	pizzeria_text.id = "pizzeria__adds"
 	pizzeria_text.className = "container"
-	pizzeria_text.textContent = "* Prodotti Surgelati - Coperto € 2,00 - Aggiunte: Patatine, Verdure € 1,00 | Salumi & Formaggi € 1,50 | Doppia Mozzarella € 2,00 | Bresaola € 2,50 | Burrata, Bufala, Stracciatella, Mozzarella senza Lattosio € 3,00 - Pizza formato Famiglia: 2x prezzo Normale."
+	pizzeria_text.textContent = "* Prodotti Surgelati - Coperto € 2,00 - Aggiunte: Patatine, Verdure € 1,00 | Salumi & Formaggi € 1,50 | Doppia Mozzarella € 2,00 | Bresaola, Burrata, Bufala, Stracciatella, Mozzarella senza Lattosio € 3,00 - Pizza formato Famiglia: 2x prezzo Normale."
 	document.querySelector('#pizzeria').appendChild(pizzeria_text)
 
 	setup_animation()
@@ -168,7 +168,7 @@ const setup_animation = () => {
 					icon_menu.classList.remove('menu__item--active')
 			}
 		})
-	}, { threshold: 0.05} )
+	}, { threshold: 0.01} )
 
 	category.forEach( el => menu_observer.observe(el))
 }
